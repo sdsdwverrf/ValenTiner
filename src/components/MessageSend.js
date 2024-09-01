@@ -40,7 +40,7 @@ export default function MessageSend() {
         setIsSent("Sent");
         setIsButtonDisabled(true);
 
-        // Emailing
+
 
         const templateParams = {
             message: messageInput,
@@ -109,4 +109,5 @@ export default function MessageSend() {
             <Link to="/endpage" className="endpage-link hidden pointer-events-none select-none"></Link>
         </div>
     );
+    
 }
