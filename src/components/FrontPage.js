@@ -53,20 +53,20 @@ export default function FrontPage() {
             <div className="heart opacity-75">
                 <div className="text absolute -top-4 z-10 w-72 p-3 h-auto flex flex-col rotate-45 select-none">
                     <p className='w-fit h-fit text-font text-center custom-color-text'>
-                        In the midst of life's tumultuous sea,
+                       bhul se koi bhul hoi toh
                     </p>
                     <p className='w-fit h-fit text-font text-center custom-color-text'>
-                        Amidst chaos and uncertainty,
+                       bhul samajh kar bhul jana
                     </p>
                     <p className='w-fit h-fit text-font text-center custom-color-text'>
-                        I found my anchor, my guiding light,
+                      are bhulna sirf bhul ko 
                     </p>
                     <p className='w-fit h-fit text-font text-center custom-color-text'>
-                        In your love, serene and bright.
+                       bhul se hame na bhul jana 
                     </p>
                 </div>
                 <div className="autor text-author absolute bottom-8 left-10 rotate-45">
-                    ~ Manas
+                    ~ Narcissist dost(ne copy kiya hai  ) 
                 </div>
             </div>
             <div className="content-ask text-white z-10 flex flex-col flex-wrap gap-6 justify-center items-center">
