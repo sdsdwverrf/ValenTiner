@@ -61,7 +61,7 @@ export default function Ask(props) {
 
   const [noCount, setNoCount] = useState(0);
   const [askText, setAskText] = useState("kya tum khelogi");
-  const [emojiAsk, setEmojiAsk] = useState('💗');
+  const [emojiAsk, setEmojiAsk] = useState('');
   const [yesOrNow, setYesOrNow] = useState(null);
 
 
@@ -89,7 +89,7 @@ export default function Ask(props) {
     } else if (noCount === 1) {
       document.querySelector('.cry-animation-1').classList.add('hidden');
       document.querySelector('.cry-animation-2').classList.remove('hidden');
-      setAskText("Please be my Valentine?")
+      setAskText("Please accept my sorry?")
       setEmojiAsk('😭')
     }
     else {
@@ -112,7 +112,7 @@ export default function Ask(props) {
     document.querySelector('.cry-animation-2').classList.add('hidden');
     document.querySelector('.accept-animation').classList.remove('hidden');
     document.querySelector('.buttons').classList.add('hidden');
-    setAskText("Yayy.. lets meet ! ")
+    setAskText("Yayy.. ! ")
     setEmojiAsk('😍');
     setYesOrNow("Yes");
   }
