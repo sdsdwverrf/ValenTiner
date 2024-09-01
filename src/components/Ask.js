@@ -60,7 +60,7 @@ export default function Ask(props) {
   const navigate = useNavigate();
 
   const [noCount, setNoCount] = useState(0);
-  const [askText, setAskText] = useState("accept my sorry pls 15 thousand  lines ka code likha hai website banane ke liye pls manjao");
+  const [askText, setAskText] = useState("accept my sorry pls fifteen thousand  lines ka code likha hai website banane ke liye pls manjao");
   const [emojiAsk, setEmojiAsk] = useState('');
   const [yesOrNow, setYesOrNow] = useState(null);
 
