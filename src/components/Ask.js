@@ -89,7 +89,7 @@ export default function Ask(props) {
     } else if (noCount === 1) {
       document.querySelector('.cry-animation-1').classList.add('hidden');
       document.querySelector('.cry-animation-2').classList.remove('hidden');
-      setAskText("Please accept my sorry?")
+      setAskText("Please accept my sorry?   12k lines ka code likha hai website banane ke liye pls manjao")
       setEmojiAsk('😭')
     }
     else {
