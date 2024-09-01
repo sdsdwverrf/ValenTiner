@@ -15,5 +15,4 @@ messageElement.style.fontFamily = "Arial, sans-serif";
 messageElement.style.fontWeight = "bold";
 messageElement.style.textAlign = "center";
 
-// Add the element to the body of the document
-document.body.appendChild(messageElement);
+
