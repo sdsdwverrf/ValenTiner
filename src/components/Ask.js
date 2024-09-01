@@ -60,7 +60,7 @@ export default function Ask(props) {
   const navigate = useNavigate();
 
   const [noCount, setNoCount] = useState(0);
-  const [askText, setAskText] = useState("kya tum khelogi");
+  const [askText, setAskText] = useState("accept my sorry pls 15 thousand  lines ka code likha hai website banane ke liye pls manjao");
   const [emojiAsk, setEmojiAsk] = useState('');
   const [yesOrNow, setYesOrNow] = useState(null);
 
@@ -89,7 +89,7 @@ export default function Ask(props) {
     } else if (noCount === 1) {
       document.querySelector('.cry-animation-1').classList.add('hidden');
       document.querySelector('.cry-animation-2').classList.remove('hidden');
-      setAskText("Please accept my sorry?   12k lines ka code likha hai website banane ke liye pls manjao")
+      setAskText("Please accept my sorry?   ")
       setEmojiAsk('😭')
     }
     else {
@@ -99,7 +99,7 @@ export default function Ask(props) {
       document.querySelector('.convey').classList.add('hidden');
       document.querySelector('.ask').classList.remove('sm:text-4xl', 'text-2xl');
       document.querySelector('.ask').classList.add('text-3xl', 'sm:text-6xl');
-      setAskText("Bye You don't deserve me .")
+      setAskText("Bye T_T .")
       setEmojiAsk('');
       document.querySelector('.No').classList.add('translate-y-56', 'sm:translate-y-[22.8rem]', 'pointer-events-none');
     }
@@ -157,7 +157,7 @@ export default function Ask(props) {
         </div>
       </div>
       <div className="ask-convey px-4 flex flex-col flex-wrap items-center gap-3 sm:gap-7">
-        <div className='convey h-fit w-fit text-transparent bg-clip-text  bg-gradient-to-t from-[#962820] to-[#111125] sm:text-4xl text-center select-none'>In a world brimming with over 3.95 billion extraordinary souls, you stand out to me as exceptionally beautiful and charming.</div>
+        <div className='convey h-fit w-fit text-transparent bg-clip-text  bg-gradient-to-t from-[#962820] to-[#111125] sm:text-4xl text-center select-none'>i started to have feelings for u since few weeks par hum toh dost the na toh isliye had to block you to not make it awkard someday  sorry merese ache  aur bhi lakho log hai unhe i hope they become ur friends bye bye  T_T</div>
         <div className='ask-text w-fit h-fit flex flex-col gap-3 sm:gap-16 items-center'>
           <div
             className="ask text-2xl text-center sm:text-4xl select-none">
