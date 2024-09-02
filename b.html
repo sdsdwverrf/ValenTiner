@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protected Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .container {
+            text-align: center;
+        }
+        .hidden {
+            display: none;
+        }
+        .password-box {
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="content" class="hidden">
+            <h1>Welcome to the Protected Content</h1>
+            <p>This content is password protected.</p>
+        </div>
+        <div id="password-prompt">
+            <input type="password" id="password" class="password-box" placeholder="Enter Password">
+            <button onclick="checkPassword()">Submit</button>
+            <p id="error-message" style="color: red;" class="hidden">Incorrect password. Try again.</p>
+        </div>
+    </div>
+
+    <script>
+        const correctPassword = "yourpassword"; // Set your password here
+
+        function checkPassword() {
+            const enteredPassword = document.getElementById('password').value;
+            if (enteredPassword === correctPassword) {
+                document.getElementById('content').classList.remove('hidden');
+                document.getElementById('password-prompt').classList.add('hidden');
+            } else {
+                document.getElementById('error-message').classList.remove('hidden');
+            }
+        }
+    </script>
+</body>
+</html>
