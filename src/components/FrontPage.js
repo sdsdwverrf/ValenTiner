@@ -8,7 +8,7 @@ import './styles/frontpage.css';
 export default function FrontPage() {
     const [text, setText] = useState('');
     const sentence = "sorry for blocking you ...   \n";
-    const typingSpeed = 200; 
+    const typingSpeed = 150; 
 
     useEffect(() => {
         const typeSentence = (index) => {
