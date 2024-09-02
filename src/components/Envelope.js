@@ -71,6 +71,7 @@ export default function Card(props) {
           <div
             className="text-1 relative mt-4 mx-11 text-3xl text-right select-none">
             the moment of truth T_T aur ha ek din jarur khelenge badmintoon sath mei T_T
+            < br />
           </div>
           <div className="relative text-right text-xl font-bold mt-1 mx-14 text-transparent bg-clip-text bg-gradient-to-br from-[#42275a] to-[#753a88] select-none">iss button ko dabauuuuuuu
           </div>
