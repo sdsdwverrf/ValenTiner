@@ -157,7 +157,7 @@ export default function Ask(props) {
         </div>
       </div>
       <div className="ask-convey px-4 flex flex-col flex-wrap items-center gap-3 sm:gap-7">
-        <div className='convey h-fit w-fit text-transparent bg-clip-text  bg-gradient-to-t from-[#962820] to-[#111125] sm:text-4xl text-center select-none'>i wanted us to be more than friends emphasis on "something more than friends"  lekin theek hai pata hai mai ek ganda dost hu awkard kr diya sry,,, merese ache  aur bhi lakho ladke hai  i hope they become ur friend bye bye  T_T</div>
+        <div className='convey h-fit w-fit text-transparent bg-clip-text  bg-gradient-to-t from-[#962820] to-[#111125] sm:text-4xl text-center select-none'>i wanted us to be more than friends emphasis on "something more than friends"  lekin theek hai pata hai mai ek ganda dost hu awkard kr diya sry,,, merese ache  aur bhi lakho ladke hai  i hope they become ur friend bye bye  T_T scroll down</div>
         <div className='ask-text w-fit h-fit flex flex-col gap-3 sm:gap-16 items-center'>
           <div
             className="ask text-2xl text-center sm:text-4xl select-none">
