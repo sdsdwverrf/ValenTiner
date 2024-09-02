@@ -112,7 +112,7 @@ export default function Ask(props) {
     document.querySelector('.cry-animation-2').classList.add('hidden');
     document.querySelector('.accept-animation').classList.remove('hidden');
     document.querySelector('.buttons').classList.add('hidden');
-    setAskText("Yayy.. ! ")
+    setAskText("Yayy.. ! scroll down ")
     setEmojiAsk('😍');
     setYesOrNow("Yes");
   }
